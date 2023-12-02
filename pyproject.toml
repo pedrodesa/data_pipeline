@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "meu projeto de etl"
+version = "0.1.0"
+description = "Workshop ETL"
+authors = ["Pedro de Sá <pedrodesa42@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.0"
+pandas = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
